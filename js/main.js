@@ -9,7 +9,25 @@ fetch("data/seminars.json")
     .then(seminars => {
         const comingTalkList = document.getElementById("coming-talk-list");
 
-        const slides = seminars.slice(0, 5).map(seminar => {
+        // Only show talks that have not happened yet. A talk counts as
+        // upcoming through the end of its scheduled day. If every talk has
+        // passed, fall back to the three most recent so the slider isn't empty.
+        const startOfToday = new Date();
+        startOfToday.setHours(0, 0, 0, 0);
+
+        const seminarDate = value => {
+            const parsed = new Date(value);
+            return Number.isNaN(parsed.getTime()) ? null : parsed;
+        };
+
+        const upcoming = seminars.filter(seminar => {
+            const date = seminarDate(seminar.date);
+            return date === null || date >= startOfToday;
+        });
+
+        const visibleSeminars = (upcoming.length > 0 ? upcoming : seminars.slice(-3)).slice(0, 5);
+
+        const slides = visibleSeminars.map(seminar => {
             const slide = document.createElement("article");
             slide.className = "talk-slide";
             slide.setAttribute("aria-live", "polite");
