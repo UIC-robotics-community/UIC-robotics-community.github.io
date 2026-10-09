@@ -30,6 +30,16 @@
         "image": "images/speakers/square-crop-nelson.jpg"
     },
     {
+        "date": "October 14, 2026",
+        "time": "11:00 AM",
+        "location": "CDRLC 1422 and Online — Zoom link sent to mailing list subscribers",
+        "speaker": "Wanxin Jin",
+        "speakerBio": "Wanxin Jin is an Assistant Professor in the School for Engineering of Matter, Transport and Energy at Arizona State University. His research spans robotics, control, and machine learning, with a focus on contact-rich manipulation, physics-grounded robot learning, and human-centered autonomy. Before joining ASU in 2023, he was a postdoctoral researcher at the University of Pennsylvania’s GRASP Laboratory. He received his Ph.D. from Purdue University in 2021. He serves as an Associate Editor for IEEE Robotics and Automation Letters and IEEE Transactions on Robotics.",
+        "title": "Physics as the Backbone of Dexterity: Simulation-in-the-Loop Learning, Control, and Perception",
+        "topic": "Dexterous manipulation comes down to contact: knowing not just where to touch an object, but how to make it move, slide, or stay put. Rather than asking robots to learn every interaction from ever-larger datasets, this talk explores a different approach: putting physics simulation directly inside the loops of control, adaptation and perception. I’ll begin with ComFree, a solver-free contact physics engine built for dense-contact simulation and real-time optimization. I’ll then show how a physics-grounded hierarchy divides manipulation into two complementary decisions: a learned policy chooses where to touch, while simulation-guided control determines how to contact. This division improves learning efficiency and helps dexterous skills transfer to real robots. But simulation is only useful if it captures the right physics. I’ll close by asking how robots can build simulations they can trust—and show why an object’s geometry can look right yet behave wrong in contact. Together, these ideas point toward a contact-centric infrastructure and design of dexterity.",
+        "image": "images/speakers/square-crop-wanxin.jpg"
+    },
+    {
         "date": "November 11, 2026",
         "time": "11:00 AM",
         "location": "CDRLC 1422 and Online — Zoom link sent to mailing list subscribers",
