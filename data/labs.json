@@ -30,6 +30,12 @@
         "directors": ["Yifan Zhu"]
     },
     {
+        "name": "PEople Aligned Robots Lab (PEARL)",
+        "department": "CS",
+        "link": "http://www.people-aligned-robots.com/",
+        "directors": ["Debasmita Ghose"]
+    },
+    {
         "name": "Resilient Ubiquitous Intelligence Computing (RUIC) Lab",
         "department": "ECE",
         "link": "https://ruic.lab.uic.edu/",

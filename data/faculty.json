@@ -36,6 +36,12 @@
         "image": "images/faculty/brian-ziebart.jpg"
     },
     {
+        "name": "Debasmita Ghose",
+        "department": "CS",
+        "link": "https://www.debasmitaghose.com/",
+        "image": "images/faculty/debasmita-ghose.png"
+    },
+    {
         "name": "Igor Paprotny",
         "department": "ECE",
         "link": "https://ece.uic.edu/profiles/igor-paprotny-phd/",
