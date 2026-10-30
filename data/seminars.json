@@ -50,13 +50,13 @@
         "image": "images/speakers/square-crop-sarah.jpg"
     },
     {
-        "date": "November 11, 2026",
+        "date": "November 4, 2026",
         "time": "11:00 AM",
         "location": "CDRLC 1422 and Online — Zoom link sent to mailing list subscribers",
         "speaker": "Vince Kurtz",
-        "speakerBio": "Vince Kurtz is an assistant professor at DePaul's School of Computing. His research focuses on planning, simulation, and control of high-degree-of-freedom robots, with the long-term goal of enabling new tools that amplify human capabilities. He is particularly interested in techniques that enable safe and reliable contact-rich interactions with the environment, as well as methods that generalize across legged locomotion and dexterous manipulation tasks.",
-        "title": "TBD",
-        "topic": "Coming soon!",
+        "speakerBio": "Vince Kurtz is an assistant professor at DePaul University’s School of Computing in Chicago, IL. Before joining DePaul, he worked with the Dynamics and Simulation team at Toyota Research Institute (TRI), as a research scientist in the Burdick group at Caltech, and as a postdoctoral scholar in Caltech’s AMBER lab. His research focuses on simulation, learning, and control for contact-rich robotics tasks, with the long-term goal of enabling new technology that amplifies human abilities. He received the TRI Young Faculty Researcher Award in 2026 and earned his PhD in Electrical Engineering from the University of Notre Dame in 2023.",
+        "title": "Who Cares About ODEs? Numerical Integration for Robotics and Generative Modeling in the AI Age",
+        "topic": "Robotics is advancing at breakneck pace, with credit for this recent acceleration often attributed to hype around AI and large language models. In this talk, we highlight a less flashy but no less important ingredient behind recent robotics progress: the humble ordinary differential equation (ODE). We highlight three recent advances that leverage ODEs for robot learning and control. First, we show how classical error-controlled integration theory enables faster and more reliable robotics simulation. We then discuss how simulation can be used to produce training data for flow matching policies (themselves ODEs) without manual demonstrations. Finally, we show how a small modification to flow matching’s denoising ODE can exactly enforce inference-time constraints for flow-matching models, enabling constrained control without computationally expensive projections or optimization subproblems.",
         "image": "images/speakers/square-crop-vince.jpg"
     }
 ]
